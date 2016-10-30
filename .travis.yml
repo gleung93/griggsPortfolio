@@ -10,8 +10,7 @@ before_script: grunt build-prod
 deploy:
   provider: s3
   access_key_id: AKIAJCLIHKUGBJUQKVKQ
-  secret_access_key:
-    secure: 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
+  secret_access_key: mvhSoCmrPhCMPVe/OICVe//5PokEqMWnpgee4gpM
   bucket: leunggriggsdronez
   acl: public_read
   region: Oregon
