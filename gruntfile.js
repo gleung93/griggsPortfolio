@@ -53,6 +53,17 @@ module.exports = function(grunt) {
           base: 'dist'
         }
       }
+    },
+
+    compress: {
+      main: {
+        options: {
+          mode: 'gzip',
+          pretty: true,
+        },
+        expand: true,
+        src: ['dist/*.html', 'dist/*.css', 'dist/*.js'],
+      }
     }
 
   });
@@ -61,6 +72,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-pug');
   grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-contrib-compress');
 
   grunt.registerTask('default', ['connect:server','watch']);
+  grunt.registerTask('build-prod', ['sass','pug','compress']);
 };
