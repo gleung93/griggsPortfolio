@@ -10,6 +10,7 @@
     "grunt-contrib-pug": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1",
     "normalize-scss": "^6.0.0"
   }
 }
