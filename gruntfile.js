@@ -1,5 +1,3 @@
-require('load-grunt-tasks')(grunt);
-
 module.exports = function(grunt) {
   grunt.initConfig({
 
@@ -71,6 +69,7 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-pug');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-compress');
