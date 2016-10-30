@@ -7,13 +7,14 @@ install: npm install
 before_script: grunt build-prod
 deploy:
   provider: s3
-  access_key_id: AKIAJCLIHKUGBJUQKVKQ
-  secret_access_key: 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
+  access_key_id: AKIAJTOLE54MC4EAO73A
+  secret_access_key:
+    secure: mHwbgi3mk9Pqmp4r84GGJ+WzO48SntwYmFko02sALeTv+7GxYxH5aLocIxieFWWkdY6hUpmhtatHEq4kRRdigcSRRfcTjIgYcywPdGMebwpOJh+Gt7CGCVNkaUHo7uDSwy5sN5yKi5LEDAdM2Qo+s5vvARDhprCTNrAkoYhDTEAOoO1lTPmB+PRPTsoXhNW9AWoFe9GK+aV7Fjhqw2h6/aaxicuwFf44F5Cb/RVvr4XacNz4uYOjfygPbds3j4rXIV2LpjanNjqQdyCQmAI9yOHLjJljkHLP4qL4ZSpNgmHekfxY2TKFTofckjTnIIG9KoEVUu/lTTpEh+Q+wHQ3d+7cXuW/IAONTpkavgd6SZ/Ki2w0Vkpdd2haMIyMMsYPFWfmZCZJk7OXC+U16b8j9qS1sSzdCexmjsIEPvnhWK9Zj4cKBA0TYeOtvUl4Kk1sdAZLgYG7KK3tBq5rqtvW6disLgNP4F5eOHm+P1VQXhahgP+qkvq+rCqSBIInGawy9uCnqLnDEZKHLC4iAblrShee3nPy4kUSY4r5ZTA6Y/a1dl3gSIv000pagLK0gxTjjSAkbiPsr+NyUTzdjsX6thOUfRZYsZZSiLBJsyCOAsKYQewJ8/bWiapET2FbaPE0syV7ym0kVqRsh2Cl9nESBWAzht6Qei04LooRnVQyXJQ=
   bucket: leunggriggsdronez
   acl: public_read
   region: Oregon
   detect_encoding: true
-  expires: "2017-01-01 00:00:00 -0000"
+  expires: '2017-01-01 00:00:00 -0000'
   skip_cleanup: true
   local_dir: dist
   on:
