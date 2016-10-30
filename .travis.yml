@@ -2,11 +2,8 @@ language: node_js
 branches:
   only:
   - master
-before_install: bundle install
-install: npm install
-before_script:
-  - npm install -g grunt-cli
-  - grunt build-prod
+before_script: npm install -g grunt-cli
+script: grunt build-prod
 deploy:
   provider: s3
   access_key_id: $ACCESS_KEY
@@ -16,6 +13,6 @@ deploy:
   region: Oregon
   detect_encoding: true
   skip_cleanup: true
-  local_dir: dist
+  local-dir: dist
   on:
     repo: gleung93/drones1.0
