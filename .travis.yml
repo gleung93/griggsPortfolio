@@ -13,7 +13,6 @@ deploy:
   acl: public_read
   region: Oregon
   detect_encoding: true
-  expires: '2017-01-01 00:00:00 -0000'
   skip_cleanup: true
   local_dir: dist
   on:
