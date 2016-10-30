@@ -5,6 +5,7 @@ branches:
 before_install: npm install -g grunt-cli
 install: npm install
 before_script: grunt build-prod
+before_deploy: rvm 1.9.3 do gem install aws-sdk -v 2.1.36
 deploy:
   provider: s3
   access_key_id: AKIAJTOLE54MC4EAO73A
