@@ -28,7 +28,8 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         options: {
-          style: 'expanded',
+          outputStyle: 'compressed',
+          sourceMap: true
         },
         files: {
           'dist/style.css': 'src/sass/main.scss'
@@ -80,7 +81,9 @@ module.exports = function(grunt) {
         expand: true,
         src: ['dist/*.html', 'dist/*.css', 'dist/*.js'],
       }
-    }
+    },
+
+    clean: ['dist']
 
   });
 
@@ -89,9 +92,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-pug');
   grunt.loadNpmTasks('grunt-sync');
   grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-compress');
+  grunt.loadNpmTasks('grunt-contrib-clean');
 
   grunt.registerTask('default', ['connect:server','watch']);
   grunt.registerTask('build-dev', ['sass','pug','sync']);
-  grunt.registerTask('build-prod', ['sass','pug','compress']);
+  grunt.registerTask('build-prod', ['sass','pug','compress',]);
 };
