@@ -10,8 +10,12 @@ module.exports = function(grunt) {
         tasks: ['sass'],
       },
       pug: {
-        files: 'src/*.pug',
+        files: 'src/**/*.pug',
         tasks: ['pug'],
+      },
+      images: {
+        files: 'src/images/*',
+        tasks: ['sync'],
       },
       configFiles: {
         files: [ 'Gruntfile.js', 'config/*.js' ],
@@ -45,6 +49,18 @@ module.exports = function(grunt) {
       }
     },
 
+    sync: {
+      main: {
+        files: [{
+          cwd: 'src/images',
+          src: '**',
+          dest: 'dist/images',
+        }],
+        verbose: true,
+        updateAndDelete: true,
+      }
+    },
+
     connect: {
       server: {
         options: {
@@ -71,9 +87,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-pug');
+  grunt.loadNpmTasks('grunt-sync');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-compress');
 
   grunt.registerTask('default', ['connect:server','watch']);
+  grunt.registerTask('build-dev', ['sass','pug','sync']);
   grunt.registerTask('build-prod', ['sass','pug','compress']);
 };

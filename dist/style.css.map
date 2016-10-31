@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,EAAG;EACD,SAAS,EAAE,IAAI",
-"sources": ["../src/sass/base/_fonts.scss"],
-"names": [],
-"file": "style.css"
-}

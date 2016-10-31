@@ -1,0 +1,22 @@
+mixin hero(sm,md,lg,xl,alt )
+  picture
+    source(
+      media="(max-width: 768px)"
+      srcset=sm+', '+lg+' 2x'
+    )
+    source(
+      media="(max-width: 1200px)"
+      srcset=md+', '+xl+' 2x'
+    )
+    source(
+      media="(max-width: 1920px)"
+      srcset=lg+', '+xl+' 2x'
+    )
+    source(
+      media="(min-width: 1921px)"
+      srcset=xl
+    )
+    img(
+      src=sm
+      alt=alt
+    )
