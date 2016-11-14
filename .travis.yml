@@ -7,12 +7,12 @@ script: grunt build-prod
 deploy:
   provider: s3
   access_key_id: $ACCESS_KEY
-  access_key_id: $SECRET_KEY
-  bucket: leunggriggsdronez
+  secret_access_key: $SECRET_KEY
+  bucket: opterrastudiodev
   acl: public_read
   region: Oregon
   detect_encoding: true
   skip_cleanup: true
   local-dir: dist
   on:
-    repo: gleung93/drones1.0
+    repo: gleung93/OpterraStudio
