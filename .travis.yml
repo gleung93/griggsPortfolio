@@ -10,9 +10,9 @@ deploy:
   secret_access_key: $SECRET_KEY
   bucket: opterrastudiodev
   acl: public_read
-  region: Oregon
+  region: us-west-2
   detect_encoding: true
   skip_cleanup: true
-  local-dir: dist
+  local_dir: dist
   on:
     repo: gleung93/OpterraStudio
