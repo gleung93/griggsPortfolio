@@ -1,0 +1,16 @@
+//Styles for project page
+
+.project-grid {}
+
+.project-thumbnail {
+  background: #828282;
+  height: 400px;
+
+  .hover-label {
+    display: none;
+  }
+
+  &:hover .hover-label {
+    display: block;
+  }
+}

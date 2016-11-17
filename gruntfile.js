@@ -6,12 +6,12 @@ module.exports = function(grunt) {
         livereload: true,
       },
       css: {
-        files: 'src/sass/**/*.scss',
+        files: ['src/sass/**/*.scss', 'src/data/*.{json,yml}'],
         tasks: ['sass'],
       },
-      pug: {
-        files: 'src/**/*.pug',
-        tasks: ['pug'],
+      template: {
+        files: 'src/**/*.hbs',
+        tasks: ['assemble'],
       },
       images: {
         files: 'src/images/*',
@@ -25,6 +25,24 @@ module.exports = function(grunt) {
       },
     },
 
+    assemble: {
+      options: {
+        data: "src/data/*.{json,yml}",
+      },
+      project: {
+        options: {
+          layout: "src/main-layout.hbs",
+          partials: "src/components/**/*.hbs"
+        },
+        files: [{
+          expand: true,
+          cwd: 'src/pages',
+          src: ['*.hbs'],
+          dest: 'dist/'
+        }]
+      }
+    },
+
     sass: {
       dist: {
         options: {
@@ -33,19 +51,6 @@ module.exports = function(grunt) {
         },
         files: {
           'dist/style.css': 'src/sass/main.scss'
-        }
-      }
-    },
-
-    pug: {
-      compile: {
-        options: {
-          data: {
-            debug: false
-          }
-        },
-        files: {
-          'dist/index.html': ['src/index.pug', 'src/components/*.pug']
         }
       }
     },
@@ -89,14 +94,15 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-sass');
-  grunt.loadNpmTasks('grunt-contrib-pug');
   grunt.loadNpmTasks('grunt-sync');
+  grunt.loadNpmTasks('grunt-assemble');
+  grunt.loadNpmTasks('grunt-newer');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-contrib-clean');
 
   grunt.registerTask('default', ['connect:server','watch']);
-  grunt.registerTask('build-dev', ['sass','pug','sync']);
-  grunt.registerTask('build-prod', ['sass','pug','compress',]);
+  grunt.registerTask('build-dev', ['sass', 'assemble', 'sync']);
+  grunt.registerTask('build-prod', ['sass', 'assemble', 'compress',]);
 };

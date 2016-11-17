@@ -1,0 +1,42 @@
+{
+	"demoreel": {
+		"title": "Demo Reel",
+		"bg-color": "rgb(57, 134, 182)",
+		"thumbnail-img": "null",
+		"video-link": "null",
+		"client": "",
+		"description": ""
+	},
+	"project1": {
+		"title": "Project 1",
+		"bg-color": "rgb(201, 58, 58)",
+		"thumbnail-img": "null",
+		"video-link": "null",
+		"client": "",
+		"description": ""
+	},
+	"project2": {
+		"title": "Project 2",
+		"bg-color": "rgb(99, 166, 93)",
+		"thumbnail-img": "null",
+		"video-link": "null",
+		"client": "",
+		"description": ""
+	},
+	"project3": {
+		"title": "Project 3",
+		"bg-color": "rgb(71, 57, 182)",
+		"thumbnail-img": "null",
+		"video-link": "null",
+		"client": "",
+		"description": ""
+	},
+	"project4": {
+		"title": "Project 4",
+		"bg-color": "rgb(222, 119, 57)",
+		"thumbnail-img": "null",
+		"video-link": "null",
+		"client": "",
+		"description": ""
+	}
+}

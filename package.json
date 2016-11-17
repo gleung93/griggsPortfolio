@@ -1,16 +1,17 @@
 {
-  "name": "drone1.0",
+  "name": "griggsportfolio",
   "version": "1.0.0",
-  "description": "Static website advertising drone aerial photography",
-  "author": "Grant Leung",
+  "description": "Taylor's 2016 motion design portfolio",
+  "author": "Taylor Griggs",
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-assemble": "^0.5.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-compress": "^1.3.0",
     "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-pug": "^1.0.0",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-newer": "^1.2.0",
     "grunt-sass": "^1.2.1",
     "normalize-scss": "^6.0.0"
   },
