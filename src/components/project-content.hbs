@@ -1,11 +1,21 @@
-<div class="container-fluid project-container">
-  <div class="row">
+<div class="project-container row">
+  <div>
     <div class="col-md-4">
-      <h2> {{title}} </h2>
-      <p> Lorem sdksdgkljdngkljbdfgkljbadsb b ad,jhbdfgjhbg </p>
+      <h2>{{title}}</h2>
+      <h3>{{client}}</h3>
+      <p>{{description}}</p>
     </div>
     <div class="col-md-8">
-    this is a video
+      <div class="vimeo-player">
+        <iframe
+          src="https://player.vimeo.com/video/130001307"
+          width="100%"
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen>
+        </iframe>
+      </div>
     </div>
   </div>
 </div>

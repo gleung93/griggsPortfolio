@@ -2,3 +2,37 @@
   text-align: center;
   margin: 30px 0;
 }
+
+//Styles for project Grid
+
+.project-thumbnail {
+  background: #828282;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hover-label {
+    display: none;
+  }
+
+  &:hover .hover-label {
+    display: block;
+  }
+
+  .reel-cta {
+    background-color: #000;
+  }
+}
+
+//Override bootstrap modal
+@media (min-width: 768px) {
+  .modal-dialog {
+      width: 100%;
+      max-width: 1190px;
+      padding: 10px;
+      margin-top: 50px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+}

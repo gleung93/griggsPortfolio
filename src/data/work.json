@@ -1,42 +1,46 @@
 {
 	"demoreel": {
-		"title": "Demo Reel",
+		"title": "2016 Motion Reel",
 		"bg-color": "rgb(57, 134, 182)",
 		"thumbnail-img": "null",
-		"video-link": "null",
-		"client": "",
-		"description": ""
+		"link": "demo-reel.html",
+		"cols": "col-md-12",
+		"isReel": "true"
 	},
 	"project1": {
 		"title": "Project 1",
 		"bg-color": "rgb(201, 58, 58)",
 		"thumbnail-img": "null",
-		"video-link": "null",
+		"link": "null",
 		"client": "",
-		"description": ""
+		"description": "",
+		"cols": "col-md-4"
 	},
 	"project2": {
 		"title": "Project 2",
 		"bg-color": "rgb(99, 166, 93)",
 		"thumbnail-img": "null",
-		"video-link": "null",
+		"link": "null",
 		"client": "",
-		"description": ""
+		"description": "",
+		"cols": "col-md-4"
 	},
 	"project3": {
 		"title": "Project 3",
 		"bg-color": "rgb(71, 57, 182)",
 		"thumbnail-img": "null",
-		"video-link": "null",
+		"link": "null",
 		"client": "",
-		"description": ""
+		"description": "",
+		"cols": "col-md-4"
 	},
 	"project4": {
 		"title": "Project 4",
 		"bg-color": "rgb(222, 119, 57)",
 		"thumbnail-img": "null",
-		"video-link": "null",
+		"link": "null",
 		"client": "",
-		"description": ""
+		"description": "",
+		"cols": "col-md-4"
 	}
 }

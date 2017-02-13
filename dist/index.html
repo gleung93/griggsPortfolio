@@ -3,7 +3,7 @@
 <head>
 
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Taylor Griggs</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -12,8 +12,16 @@
   <script src="https://use.typekit.net/bou4zyy.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous">
+  </script>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -22,39 +30,86 @@
 </head>
 <body>
 
-<nav>
-  <a href="index.html">home</a>
-  <a href="about.html">about</a>
-  <a href="contact.html">contact</a>
-  <a href="project.html">project</a>
-</nav>
-
-
+  <div class="container">
+    <nav class="row">
+      <div class="col-md-12 nav-container">
+        <a href="index.html">Work</a>
+        <a href="resume.html">Resume</a>
+        <a href="index.html">
+          TAYLOR GRIGGS
+        </a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+    
 
 <div class="home-intro">
   <h1>Design & Animation</h1>
   <h2>Golden Co</h2>
 </div>
-<div class="project-grid container-fluid">
+<div class="project-grid">
   <div class="row">
-      <div class="project-thumbnail col-md-4" style="background-color: rgb(57, 134, 182)">
-        <div class="hover-label"> Demo Reel </div>
+          <a href="#" data-toggle="modal" data-target="#reelModal">
+            <div class="project-thumbnail col-md-12" style="background-color: rgb(57, 134, 182)">
+              <div class="reel-cta btn">2016 Motion Reel</div>
+            </div>
+          </a>
+          <a href="null">
+            <div class="project-thumbnail col-md-4" style="background-color: rgb(201, 58, 58)">
+              <div class="hover-label">Project 1</div>
+            </div>
+          </a>
+          <a href="null">
+            <div class="project-thumbnail col-md-4" style="background-color: rgb(99, 166, 93)">
+              <div class="hover-label">Project 2</div>
+            </div>
+          </a>
+          <a href="null">
+            <div class="project-thumbnail col-md-4" style="background-color: rgb(71, 57, 182)">
+              <div class="hover-label">Project 3</div>
+            </div>
+          </a>
+          <a href="null">
+            <div class="project-thumbnail col-md-4" style="background-color: rgb(222, 119, 57)">
+              <div class="hover-label">Project 4</div>
+            </div>
+          </a>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="reelModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="vimeo-player">
+        <iframe
+          src=""
+          width="100%"
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen>
+        </iframe>
       </div>
-      <div class="project-thumbnail col-md-4" style="background-color: rgb(201, 58, 58)">
-        <div class="hover-label"> Project 1 </div>
-      </div>
-      <div class="project-thumbnail col-md-4" style="background-color: rgb(99, 166, 93)">
-        <div class="hover-label"> Project 2 </div>
-      </div>
-      <div class="project-thumbnail col-md-4" style="background-color: rgb(71, 57, 182)">
-        <div class="hover-label"> Project 3 </div>
-      </div>
-      <div class="project-thumbnail col-md-4" style="background-color: rgb(222, 119, 57)">
-        <div class="hover-label"> Project 4 </div>
-      </div>
+    </div>
   </div>
 </div>
 
+  </div>
+
+  <!--Script stops video from playing when modal is closed-->
+  <script>
+  var vidsrc = "https://player.vimeo.com/video/130001307"
+
+  $('#reelModal').on('show.bs.modal', function () {
+    console.log("open");
+    $('#reelModal iframe').attr('src',vidsrc)
+  })
+
+  $('#reelModal').on('hidden.bs.modal', function () {
+    $('#reelModal iframe').attr('src','')
+  })
+  </script>
 
 </body>
 </html>

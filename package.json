@@ -1,5 +1,9 @@
 {
   "name": "griggsportfolio",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gleung93/griggsPortfolio.git"
+  },
   "version": "1.0.0",
   "description": "Taylor's 2016 motion design portfolio",
   "author": "Taylor Griggs",
