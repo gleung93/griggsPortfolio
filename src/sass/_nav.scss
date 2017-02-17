@@ -1,4 +1,21 @@
+@import "base/colors";
+
+nav {
+  margin-bottom: 30px;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
+  padding: 20px 0;
+
+  .logo {
+    font-size: 22px;
+    color: $blackish;
+
+    &:hover, &:active, &:focus {
+      text-decoration: none;
+      color: $blackish;
+    }
+  }
 }

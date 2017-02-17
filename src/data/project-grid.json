@@ -1,0 +1,50 @@
+{
+	"project1": {
+		"title": "Project 1",
+		"bg-color": "rgb(201, 58, 58)",
+		"thumbnail-img": "images/test.jpg",
+		"link": "Project1.html",
+		"client": "",
+		"description": ""
+	},
+	"project2": {
+		"title": "Project 2",
+		"bg-color": "rgb(99, 166, 93)",
+		"thumbnail-img": "null",
+		"link": "project2.html",
+		"client": "",
+		"description": ""
+	},
+	"project3": {
+		"title": "Project 3",
+		"bg-color": "rgb(71, 57, 182)",
+		"thumbnail-img": "null",
+		"link": "project3.html",
+		"client": "",
+		"description": ""
+	},
+	"project4": {
+		"title": "Project 4",
+		"bg-color": "rgb(45, 179, 38)",
+		"thumbnail-img": "null",
+		"link": "project4.html",
+		"client": "",
+		"description": ""
+	},
+	"project5": {
+		"title": "Project 5",
+		"bg-color": "rgb(222, 119, 57)",
+		"thumbnail-img": "null",
+		"link": "project5.html",
+		"client": "",
+		"description": ""
+	},
+	"project6": {
+		"title": "Project 6",
+		"bg-color": "rgb(15, 35, 96)",
+		"thumbnail-img": "null",
+		"link": "project6.html",
+		"client": "",
+		"description": ""
+	}
+}

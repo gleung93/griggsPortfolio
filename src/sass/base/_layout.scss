@@ -1,1 +1,5 @@
-
+.main-content {
+  //This makes the footer always on the bottom on pages with not much content
+  min-height: calc(100vh - 70px);
+  padding-bottom: 40px;
+}

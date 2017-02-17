@@ -30,24 +30,12 @@
 </head>
 <body>
 
-  <div class="container">
+  <div class="main-content container">
     {{> nav }}
-    {{> body  }}
+    {{> body }}
   </div>
 
-  <!--Script stops video from playing when modal is closed-->
-  <script>
-  var vidsrc = "https://player.vimeo.com/video/130001307"
-
-  $('#reelModal').on('show.bs.modal', function () {
-    console.log("open");
-    $('#reelModal iframe').attr('src',vidsrc)
-  })
-
-  $('#reelModal').on('hidden.bs.modal', function () {
-    $('#reelModal iframe').attr('src','')
-  })
-  </script>
+  {{> footer }}
 
 </body>
 </html>

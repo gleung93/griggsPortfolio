@@ -1,19 +1,11 @@
 <div class="project-grid">
   <div class="row">
-    {{#each work}}
-          {{#if isReel}}
-          <a href="#" data-toggle="modal" data-target="#reelModal">
-            <div class="project-thumbnail {{cols}}" style="background-color: {{bg-color}}">
-              <div class="reel-cta btn">{{title}}</div>
-            </div>
-          </a>
-          {{else}}
-          <a href="{{link}}">
-            <div class="project-thumbnail {{cols}}" style="background-color: {{bg-color}}">
-              <div class="hover-label">{{title}}</div>
-            </div>
-          </a>
-          {{/if}}
+    {{#each project-grid}}
+      <a href="{{link}}">
+        <div class="project-thumbnail col-md-4" style="background-color: {{bg-color}}; background-image: url({{thumbnail-img}})">
+          <div class="hover-label">{{title}}</div>
+        </div>
+      </a>
     {{/each}}
   </div>
 </div>

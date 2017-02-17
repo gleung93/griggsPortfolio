@@ -1,7 +1,11 @@
 {
-	"title": "Project1hghghhhg",
+	"title": "Project1",
 	"client": "personal",
-	"description": "Lorem Ipsum",
-	"video-url": "",
-	"thumbnail-img": "null"
+	"description": "Bacon ipsum dolor amet tail ribeye spare ribs filet mignon tongue shank pork belly brisket burgdoggen kielbasa prosciutto. Brisket doner ground round drumstick porchetta filet mignon, andouille short loin swine bresaola rump cow. Turducken pork t-bone shoulder. Brisket pork loin porchetta pork chop, pastrami kevin.",
+	"video-url": "https://player.vimeo.com/video/175293481",
+	"next-page":"project2.html",
+	"images": [
+      {"img-src": "images/test.jpg", "caption": "Look at it!"},
+      {"img-src": "images/test.jpg", "caption": "Look at it now!"}
+    ]
 }

@@ -1,21 +1,32 @@
-<div class="project-container row">
-  <div>
-    <div class="col-md-4">
-      <h2>{{title}}</h2>
-      <h3>{{client}}</h3>
-      <p>{{description}}</p>
-    </div>
-    <div class="col-md-8">
-      <div class="vimeo-player">
-        <iframe
-          src="https://player.vimeo.com/video/130001307"
-          width="100%"
-          frameborder="0"
-          webkitallowfullscreen
-          mozallowfullscreen
-          allowfullscreen>
-        </iframe>
+<div class="project-container">
+
+  <div class="row">
+      <div class="col-md-4">
+        <h2>{{title}}</h2>
+        <h3>Client: {{client}}</h3>
+        <p>{{description}}</p>
       </div>
-    </div>
+      <div class="col-md-8">
+        <div class="vimeo-player">
+          <iframe
+            src={{video-url}}
+            width="100%"
+            frameborder="0"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="row">
+          <div class="project-image-container">
+            {{#each images}}
+              <div class="col-md-6">
+                <img class="img-responsive" src={{img-src}}>
+                <p class="project-image-caption">{{caption}}</p>
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
   </div>
 </div>
