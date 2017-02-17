@@ -2,7 +2,7 @@
 	"demoreel": {
 		"title": "2016 Motion Reel",
 		"bg-color": "rgb(57, 134, 182)",
-		"thumbnail-img": "null",
+		"thumbnail-img": "images/reel_thumb.jpg",
 		"link": "demo-reel.html",
 		"cols": "col-md-12",
 		"isReel": "true"
@@ -11,7 +11,7 @@
 		"title": "Project 1",
 		"bg-color": "rgb(201, 58, 58)",
 		"thumbnail-img": "null",
-		"link": "null",
+		"link": "Project1.html",
 		"client": "",
 		"description": "",
 		"cols": "col-md-4"
