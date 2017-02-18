@@ -7,5 +7,7 @@
 	"images": [
       {"img-src": "images/test.jpg", "caption": "Look at it!"},
       {"img-src": "images/test.jpg", "caption": "Look at it now!"}
-    ]
+    ],
+	"next-url": "Project2.html",
+	"previous-url": "Project6.html"
 }
