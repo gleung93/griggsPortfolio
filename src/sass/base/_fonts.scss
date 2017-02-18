@@ -1,15 +1,50 @@
 h1 {
-  font-family: "adobe-garamond-pro", serif;
-  font-size: 42px;
+  //Main title
+  font-family: "proxima-nova", serif;
+  font-weight:900;
+  font-size: 40px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  padding: 0px 0 0 0;
 }
 
 h2 {
+  //Main Subheader
+  font-family: "adobe-garamond-pro", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  padding: 0 0 10px 0;
+}
+
+h3 {
+  //Project title
   font-family: "proxima-nova", sans-serif;
-  font-size: 23px;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 0 0 4px 0;
+}
+
+h4 {
+  //Project Subheader
+  font-family: "adobe-garamond-pro", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 0 0 2px 0;
+}
+
+h5 {
+  //About Me Header
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0 0 0;
 }
 
 p {
-  font-family: "proxima-nova", sans-serif;
-  font-size: 18px;
+  font-family: "adobe-garamond-pro", sans-serif;
+  font-size: 16px;
   line-height: 23px;
 }

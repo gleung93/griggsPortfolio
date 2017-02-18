@@ -1,14 +1,14 @@
 {
 	"project1": {
-		"title": "Project 1",
-		"bg-color": "rgb(201, 58, 58)",
-		"thumbnail-img": "images/test.jpg",
+		"title": "Mercedes-Benz",
+		"bg-color": "rgb(201, 100, 58)",
+		"thumbnail-img": "null",
 		"link": "Project1.html",
 		"client": "",
 		"description": ""
 	},
 	"project2": {
-		"title": "Project 2",
+		"title": "GRCD Branding",
 		"bg-color": "rgb(99, 166, 93)",
 		"thumbnail-img": "null",
 		"link": "project2.html",
@@ -16,7 +16,7 @@
 		"description": ""
 	},
 	"project3": {
-		"title": "Project 3",
+		"title": "CosmoLab",
 		"bg-color": "rgb(71, 57, 182)",
 		"thumbnail-img": "null",
 		"link": "project3.html",
@@ -24,7 +24,7 @@
 		"description": ""
 	},
 	"project4": {
-		"title": "Project 4",
+		"title": "Amazon Web Services",
 		"bg-color": "rgb(45, 179, 38)",
 		"thumbnail-img": "null",
 		"link": "project4.html",
@@ -32,7 +32,7 @@
 		"description": ""
 	},
 	"project5": {
-		"title": "Project 5",
+		"title": "Netflix",
 		"bg-color": "rgb(222, 119, 57)",
 		"thumbnail-img": "null",
 		"link": "project5.html",
@@ -40,7 +40,7 @@
 		"description": ""
 	},
 	"project6": {
-		"title": "Project 6",
+		"title": "Citrine",
 		"bg-color": "rgb(15, 35, 96)",
 		"thumbnail-img": "null",
 		"link": "project6.html",

@@ -10,12 +10,23 @@ nav {
   padding: 20px 0;
 
   .logo {
-    font-size: 22px;
+    font-family: "proxima-nova";
+    font-size: 18px;
+    font-weight: 900;
     color: $blackish;
+    text-transform: uppercase;
 
     &:hover, &:active, &:focus {
       text-decoration: none;
       color: $blackish;
     }
   }
-}
+
+  .nav-link {
+    font-family: "adobe-garamond-pro";
+    font-size: 15px;
+    font-weight: 300;
+    color: $blackish;
+  }
+
+  }
