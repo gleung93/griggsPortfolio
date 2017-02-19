@@ -1,12 +1,15 @@
 {
 	"title": "Mercedes-Benz",
-	"client": "Epipheo",
+	"client": "Agency: Epipheo",
 	"description": "Bacon ipsum dolor amet tail ribeye spare ribs filet mignon tongue shank pork belly brisket burgdoggen kielbasa prosciutto. Brisket doner ground round drumstick porchetta filet mignon, andouille short loin swine bresaola rump cow. Turducken pork t-bone shoulder. Brisket pork loin porchetta pork chop, pastrami kevin.",
-	"video-url": "https://player.vimeo.com/video/175293481",
+	"videos": [
+		{"video-url": "https://player.vimeo.com/video/175293481"},
+		{"video-url": "https://player.vimeo.com/video/175293481"}
+	],
 	"next-page":"project2.html",
 	"images": [
       {"img-src": "images/test.jpg", "caption": "Look at it!"},
-      {"img-src": "images/test.jpg", "caption": "Look at it now!"}
+      {"img-src": "images/test.jpg", "caption": "This is the caption for an image of a thing for a project."}
     ],
 	"next-url": "Project2.html",
 	"previous-url": "Project6.html"

@@ -1,7 +1,7 @@
 {
 	"project1": {
 		"title": "Mercedes-Benz",
-		"bg-color": "rgb(201, 100, 58)",
+		"bg-color": "#299EFF",
 		"thumbnail-img": "null",
 		"link": "Project1.html",
 		"client": "",
@@ -9,7 +9,7 @@
 	},
 	"project2": {
 		"title": "GRCD Branding",
-		"bg-color": "rgb(99, 166, 93)",
+		"bg-color": "#EFBC1B",
 		"thumbnail-img": "null",
 		"link": "project2.html",
 		"client": "",
@@ -17,7 +17,7 @@
 	},
 	"project3": {
 		"title": "CosmoLab",
-		"bg-color": "rgb(71, 57, 182)",
+		"bg-color": "#FF5335",
 		"thumbnail-img": "null",
 		"link": "project3.html",
 		"client": "",
@@ -25,7 +25,7 @@
 	},
 	"project4": {
 		"title": "Amazon Web Services",
-		"bg-color": "rgb(45, 179, 38)",
+		"bg-color": "#F68D11",
 		"thumbnail-img": "null",
 		"link": "project4.html",
 		"client": "",
@@ -33,7 +33,7 @@
 	},
 	"project5": {
 		"title": "Netflix",
-		"bg-color": "rgb(222, 119, 57)",
+		"bg-color": "#E23030",
 		"thumbnail-img": "null",
 		"link": "project5.html",
 		"client": "",
@@ -41,7 +41,7 @@
 	},
 	"project6": {
 		"title": "Citrine",
-		"bg-color": "rgb(15, 35, 96)",
+		"bg-color": "#26BF97",
 		"thumbnail-img": "null",
 		"link": "project6.html",
 		"client": "",
