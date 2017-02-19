@@ -102,7 +102,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-contrib-clean');
 
-  grunt.registerTask('default', ['connect:server','watch']);
+  grunt.registerTask('default', ['clean', 'build-dev','connect:server','watch']);
   grunt.registerTask('build-dev', ['sass', 'assemble', 'sync']);
   grunt.registerTask('build-prod', ['sass', 'assemble', 'compress',]);
 };
