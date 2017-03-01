@@ -1,0 +1,21 @@
+{
+	"title": "Somadose",
+	"client": "Personal Project",
+	"description": "This project was created for an audio producer who goes my the name 'Somadose'. The model actually spells out Somadose within the tubes of the brain. The purpose of this project was to challenge my modeling skills to create an entirely organic model.",
+
+	"videos": [
+		{
+		"img-path": "images/Brain02.jpg",
+		 "video-caption": "",
+		 "images": [
+					{"img-src": "images/soma-texture-01.jpg", "caption": ""},
+					{"img-src": "images/soma-texture-04.jpg", "caption": ""}
+
+		]
+	 }
+
+],
+
+	"next-url": "MercedesCES.html",
+	"previous-url": "Cosmolab.html"
+}

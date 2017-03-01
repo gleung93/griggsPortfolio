@@ -1,0 +1,47 @@
+.about-container {
+  margin-top: 40px;
+}
+  h5 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid $darkgrey;
+    padding: 0 0 10px 0;
+  }
+
+p.experience {
+  padding-top: 0;
+  padding-bottom: 12px;
+  line-height: 18px;
+}
+
+p.about-me{
+  padding-bottom: 12px;
+}
+
+h5.experience-title {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.experience-header  {
+  padding-bottom: 0;
+
+  span {
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-left: 10px;
+  }
+}
+
+.contact-container {
+  a {
+    @include paragraph;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+  }
+  img {
+    height: 20px;
+    margin:-3px 5px 0 0;
+  }
+}

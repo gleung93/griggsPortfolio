@@ -1,0 +1,23 @@
+{
+	"title": "Mercedes-Benz",
+	"client": "Agency: Epipheo",
+	"description": "This project was created for Mercedes-Benz to showcase their new technology at the 2017 CES Unveiled Event in Las Vegas. My primary responsiblies included all motion graphics as well as the  UI design.",
+
+	"videos": [
+		{
+		"video-url": "https://player.vimeo.com/video/205145349",
+		 "video-caption": "",
+		 "images": [
+					{"img-src": "images/fui-component-01.gif", "caption": ""},
+					{"img-src": "images/fui-component-02.gif", "caption": ""},
+					{"img-src": "images/merc-ces-03.jpg", "caption": ""},
+					{"img-src": "images/merc-ces-04.jpg", "caption": ""}
+
+		]
+	 }
+
+],
+
+	"next-url": "NetflixWatch.html",
+	"previous-url": "Somadose.html"
+}

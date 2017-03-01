@@ -1,3 +1,9 @@
+@import './colors';
+
+html body {
+  color: $blackish;
+}
+
 h1 {
   //Main title
   font-family: "proxima-nova", serif;
@@ -11,9 +17,10 @@ h1 {
 h2 {
   //Main Subheader
   font-family: "adobe-garamond-pro", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 100;
   padding: 0 0 10px 0;
+  color: $darkgrey;
 }
 
 h3 {
@@ -28,7 +35,7 @@ h3 {
 h4 {
   //Project Subheader
   font-family: "adobe-garamond-pro", sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 200;
   padding: 0 0 2px 0;
 }
@@ -37,20 +44,35 @@ h5 {
   //About Me Header
   font-family: "proxima-nova", sans-serif;
   font-weight: 900;
-  font-size: 40px;
-  text-align: center;
+  font-size: 35px;
   text-transform: uppercase;
-  padding: 20px 0 10px 0;
+}
+
+h6 {
+  //About Me Experience Title
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 p {
   font-family: "adobe-garamond-pro", sans-serif;
   font-size: 16px;
   line-height: 23px;
+  color: $darkgrey;
 }
 
-p.project-image-caption {
+p.project-image-caption, .project-player-caption {
     font-family: "proxima-nova", sans-serif;
     font-size: 13px;
-    padding: 7px 0 0 0;
+    padding: 7px 0 10px 0;
+    color: $lightgrey;
+}
+
+@mixin paragraph {
+  font-family: "adobe-garamond-pro", sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  color: $darkgrey;
 }

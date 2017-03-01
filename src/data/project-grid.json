@@ -1,49 +1,55 @@
 {
-	"project1": {
-		"title": "Mercedes-Benz",
-		"bg-color": "#299EFF",
-		"thumbnail-img": "null",
-		"link": "Project1.html",
+	"GRCD": {
+		"title": "GRCD 2016",
+		"subtitle" : "branding, motion design",
+		"bg-color": "#59bda5",
+		"thumbnail-img": "images/grcd-gif-02.gif",
+		"link": "GRCD.html",
 		"client": "",
 		"description": ""
 	},
-	"project2": {
-		"title": "GRCD Branding",
-		"bg-color": "#EFBC1B",
-		"thumbnail-img": "null",
-		"link": "project2.html",
+	"MercedesEnergy": {
+		"title": "Mercedes Energy",
+		"subtitle" : "2d & 3d motion design",
+		"bg-color": "#0189bf",
+		"thumbnail-img": "images/merc-energy-thumb-01.jpg",
+		"link": "MercedesEnergy.html",
 		"client": "",
 		"description": ""
 	},
-	"project3": {
+	"Cosmolab": {
 		"title": "CosmoLab",
-		"bg-color": "#FF5335",
-		"thumbnail-img": "null",
-		"link": "project3.html",
+		"subtitle" : "branding, style, motion design",
+		"bg-color": "#28212b",
+		"thumbnail-img": "images/cosmolab-thumb-01.gif",
+		"link": "Cosmolab.html",
 		"client": "",
 		"description": ""
 	},
-	"project4": {
-		"title": "Amazon Web Services",
-		"bg-color": "#F68D11",
-		"thumbnail-img": "null",
-		"link": "project4.html",
+	"Somadose": {
+		"title": "Somadose",
+		"subtitle" : "3d modeling",
+		"bg-color": "#abdcfb",
+		"thumbnail-img": "images/somadose-thumb-01.jpg",
+		"link": "Somadose.html",
 		"client": "",
 		"description": ""
 	},
-	"project5": {
-		"title": "Netflix",
-		"bg-color": "#E23030",
-		"thumbnail-img": "null",
-		"link": "project5.html",
+	"MercedesCES": {
+		"title": "Mercedes AI",
+		"subtitle" : "motion design",
+		"bg-color": "#0189bf",
+		"thumbnail-img": "images/mer-ces-gif-02.gif",
+		"link": "MercedesCES.html",
 		"client": "",
 		"description": ""
 	},
-	"project6": {
-		"title": "Citrine",
-		"bg-color": "#26BF97",
-		"thumbnail-img": "null",
-		"link": "project6.html",
+	"NetflixWatch": {
+		"title": "Netflix Watch",
+		"subtitle" : "3d modeling, motion design",
+		"bg-color": "#cc2b29",
+		"thumbnail-img": "images/netflix-thumb-01.jpg",
+		"link": "NetflixWatch.html",
 		"client": "",
 		"description": ""
 	}

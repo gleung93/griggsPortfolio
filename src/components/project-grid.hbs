@@ -1,11 +1,15 @@
 <div class="project-grid">
   <div class="row">
-    {{#each project-grid}}
-      <a href="{{link}}">
-        <div class="project-thumbnail col-md-4" style="background-color: {{bg-color}}; background-image: url({{thumbnail-img}})">
-          <div class="hover-label">{{title}}</div>
-        </div>
-      </a>
-    {{/each}}
+    <div class="col-md-12">
+      {{#each project-grid}}
+        <a href="{{link}}">
+          <div class="project-thumbnail col-xs-6 col-md-4" style="background-image: url({{thumbnail-img}})">
+            <div class="color-overlay" style="background-color: {{bg-color}};"></div>
+            <div class="hover-label">{{title}}</div>
+            <div class="hover-label-sub">{{subtitle}}</div>
+          </div>
+        </a>
+      {{/each}}
+    </div>
   </div>
 </div>

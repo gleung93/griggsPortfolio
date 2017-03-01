@@ -1,0 +1,27 @@
+{
+	"title": "GRCD Branding",
+	"client": "Overlay— DAAPworks Show Branding",
+	"description": "This project served as a branding proposal for DAAPworks, our school's senior design exhibition. This brand was created to represent the Graphic Communication Design class of 2016. <br><br> I worked on a team of 7 designers to develop the graphic concept of Overlay, which represents the divergent layers of experience and knowledge that shape us into the versatile designers we are today. My responsibilities consisted of determining the visual direction of the brand as well as adapting the brand into motion. I created a motion style sample to present to our graduating class. You can check out our entire concept proposal <a href='https://www.dropbox.com/s/q64cxu0t8v70qf5/Overlay_GRCD.pdf?dl=0'>here</a>. <br><br> Our team's design proposal was voted to represent the 2016 Daapworks Graphic Design Show by my peers. All 73 GRCD students split up into teams according to their specialties to help develop and implement our senior show. I lead the team for the Promo video inviting guests to our show. I was the lead director, concept developer, and animator for the video.",
+
+	"videos": [
+		{
+		"video-url": "https://player.vimeo.com/video/160888677",
+		 "video-caption": "Motion Design Style Sample",
+		 "images": [
+					{"img-src": "images/grcd-branding-01.jpg", "caption": ""},
+					{"img-src": "images/grcd-gif-03.gif", "caption": ""}
+
+		]
+	 },
+	 {
+		"video-url": "https://player.vimeo.com/video/162584962",
+		"video-caption": "Final Event Proposal",
+		"images": [
+					{"img-src": "images/grcd-process-01.jpg", "caption": ""},
+					{"img-src": "images/grcd-process-02.jpg", "caption": ""}
+		]
+	 }
+ ],
+	"next-url": "MercedesEnergy.html",
+	"previous-url": "NetflixWatch.html"
+}

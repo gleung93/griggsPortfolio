@@ -1,0 +1,34 @@
+{
+	"title": "CosmoLab",
+	"client": "Senior Capstone",
+	"description": "Young adults often encounter many difficulties when learning complex and abstract science topics in school. Students should be able to learn these subjects in a more engaging and stimulating process to promote deeper comprehension and reconceptualization of the physical world. <br><br> CosmoLab is a new way of teaching. It is a web-based educational tool that allows students act as scientists, performing experiments and making discoveries within new perspectives of our universe. Complex concepts become relatable and easy to comprehend through utilizing narration, animation, and interactivity. <br><br> This project was my senior thesis for the University of Cincinnati. I am responsible for the problem identification, design research, branding and style, script, as well as the final animation. "
+,
+
+	"videos": [
+		{
+		"video-url": "https://player.vimeo.com/video/175293481",
+		 "video-caption": ""
+		},
+	 {
+	 "img-path": "images/cosmolab-style-01.jpg",
+		"video-caption": ""
+ },
+	{
+	"img-path": "images/cosmolab-style-03.jpg",
+	 "video-caption": ""
+},
+ {
+ "img-path": "images/cosmolab-style-04.jpg",
+	"video-caption": "",
+	"images": [
+			 {"img-src": "images/cosmolab-01.gif", "caption": "Visual exporations of space-time fabric"},
+			 {"img-src": "images/cosmolab-02.gif", "caption": ""}
+
+ ]
+ }
+
+    ],
+		"next-url": "Somadose.html",
+		"previous-url": "MercedesEnergy.html"
+
+}

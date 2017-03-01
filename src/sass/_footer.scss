@@ -1,6 +1,12 @@
+@import "./base/colors";
+
 .footer {
-  background-color: rgb(231, 231, 231);
-  display: flex;
-  align-items: center;
-  height: 70px;
+  text-align: center;
+  height: 30px;
+
+  p {
+    color: $lightestgrey;
+    font-size: 13px;
+    margin: 0;
+  }
 }

@@ -7,7 +7,7 @@ module.exports = function(grunt) {
       },
       css: {
         files: 'src/sass/**/*.scss',
-        tasks: ['sass'],
+        tasks: ['sass', 'autoprefixer'],
       },
       template: {
         files: ['src/**/*.hbs','src/data/*.{json,yml}'],
@@ -15,6 +15,10 @@ module.exports = function(grunt) {
       },
       images: {
         files: 'src/images/*',
+        tasks: ['sync'],
+      },
+      documents: {
+        files: 'src/documents/*',
         tasks: ['sync'],
       },
       configFiles: {
@@ -55,13 +59,26 @@ module.exports = function(grunt) {
       }
     },
 
+    autoprefixer:{
+      dist:{
+        files:{
+          'dist/style.css':'dist/style.css'
+        }
+      }
+    },
+
     sync: {
       main: {
         files: [{
           cwd: 'src/images',
           src: '**',
           dest: 'dist/images',
-        }],
+        },
+        {
+          cwd: 'src/documents',
+          src: '**',
+          dest: 'dist/documents',
+      }],
         verbose: true,
         updateAndDelete: true,
       }
@@ -101,6 +118,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-autoprefixer');
 
   grunt.registerTask('default', ['clean', 'build-dev','connect:server','watch']);
   grunt.registerTask('build-dev', ['sass', 'assemble', 'sync']);

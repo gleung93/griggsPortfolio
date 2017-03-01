@@ -1,0 +1,20 @@
+{
+	"title": "Netflix Watch",
+	"client": "Agency: Ignition Creative",
+	"description": "While working at Ignition I had the opportunity to work on Netflix's 'Netflix Watch', a project created to poke fun at the buzz centered around the release of the Apple Watch. For this project I modeled, lit, animated, and composited all of the 3d elements, and also helped to track video onto the film shots. This project was shot entirely at Ignition and it's cast is made up of Ignition employees. <br> <br>In under 48 hours, the video had over 150,000 views on YouTube and gained immediate media attention on popular outlets like NBCNews, USA Today, Hollywood Reporter, Entertainment Weekly, TIME, and more.",
+
+	"videos": [
+		{
+		"video-url": "https://player.vimeo.com/video/124468077",
+		 "video-caption": "",
+		 "images": [
+					{"img-src": "images/net-watch-02.jpg", "caption": ""},
+					{"img-src": "images/net-watch-01.jpg", "caption": ""}
+
+		]
+	 }
+
+],
+	"next-url": "GRCD.html",
+	"previous-url": "MercedesCES.html"
+}

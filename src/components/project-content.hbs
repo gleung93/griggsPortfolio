@@ -1,38 +1,52 @@
 <div class="project-container">
 
   <div class="row">
+      <!--Description Area-->
       <div class="col-md-4">
-        <h3>{{title}}</h3>
-        <h4>{{client}}</h4>
-        <p>{{description}}</p>
+        <div class="project-text-container">
+          <h3>{{title}}</h3>
+          <h4>{{client}}</h4>
+          <p>{{{description}}}</p>
+        </div>
       </div>
       <div class="col-md-8">
+        <!--Loop through videos in data-->
         {{#each videos}}
-        <div class="row project-player">
-          <div class='col-md-12'>
-            <div class="vimeo-player">
-              <iframe
-                src={{video-url}}
-                width="100%"
-                frameborder="0"
-                webkitallowfullscreen
-                mozallowfullscreen
-                allowfullscreen>
-              </iframe>
+          <div class="row project-player">
+            <div class='col-md-12'>
+              <!--If video-url exists in data then show vimeo player-->
+              {{#if video-url}}
+              <div class="vimeo-player">
+                <iframe
+                  src={{video-url}}
+                  width="100%"
+                  frameborder="0"
+                  webkitallowfullscreen
+                  mozallowfullscreen
+                  allowfullscreen>
+                </iframe>
+              </div>
+              {{/if}}
+              <!--If img-path exists in data then show an image-->
+              {{#if img-path}}
+                <img class="img-responsive" src={{img-path}}>
+              {{/if}}
+              <!--video-caption can also be underneath a video-->
+              <p class="project-player-caption">{{video-caption}}</p>
+              <div class="row">
+                <div class="project-image-container">
+                  <!--Loop through all the images in video-->
+                  {{#each images}}
+                    <div class="col-xs-6 project-image-col">
+                      <img class="img-responsive" src={{img-src}}>
+                      <p class="project-image-caption">{{caption}}</p>
+                    </div>
+                  {{/each}}
+                </div>
+              </div>
             </div>
           </div>
-        </div>
         {{/each}}
-        <div class="row">
-          <div class="project-image-container">
-            {{#each images}}
-              <div class="col-md-6">
-                <img class="img-responsive" src={{img-src}}>
-                <p class="project-image-caption">{{caption}}</p>
-              </div>
-            {{/each}}
-          </div>
-        </div>
       </div>
+    </div>
   </div>
-</div>
