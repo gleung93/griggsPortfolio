@@ -1,11 +1,13 @@
-<nav class="row">
+<nav>
+  <div class="container">
+  <div class="row">
   <div class="col-md-12">
 
     <div class="nav-container desktop hidden-xs hidden-sm">
       <div class="row">
 
         <div class='col-md-2 text-left'>
-          <a class="nav-link" href="index.html">Work</a>
+          <a class="nav-link" href="index.html#work">Work</a>
         </div>
 
         <div class='col-md-2 text-center'>
@@ -40,12 +42,27 @@
       </div>
     </div>
 
-    <div class="nav-container mobile hidden-md hidden-lg">
+    <div class="nav-container mobile hidden-md hidden-lg" id='mobile-nav'>
       <a class="logo" href="index.html">
         TAYLOR GRIGGS
       </a>
-      <button>-</button>
+          <div class='hamburger' id='mobile-menu'>
+            <div class='button-content'>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div id='mobile-menu-overlay'>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="./documents/GriggsResume_Spring2017.pdf" target="_blank">Resume</a></li>
+              <li><a href="about.html">About &<br>Contact</a></li>
+            <ul>
+          </div>
     </div>
   </div>
 
+</div>
+</div>
 </nav>

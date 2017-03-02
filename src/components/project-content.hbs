@@ -2,14 +2,14 @@
 
   <div class="row">
       <!--Description Area-->
-      <div class="col-md-4">
+      <div class="col-md-4 fixed-text">
         <div class="project-text-container">
           <h3>{{title}}</h3>
           <h4>{{client}}</h4>
           <p>{{{description}}}</p>
         </div>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 col-md-offset-4">
         <!--Loop through videos in data-->
         {{#each videos}}
           <div class="row project-player">

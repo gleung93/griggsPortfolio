@@ -7,8 +7,24 @@
   }
 }
 
+.fixed-text {
+  box-sizing: border-box;
+  @media (min-width: $md) {
+    position: fixed;
+    width: 323px;
+  }
+  @media (min-width: $lg) {
+    position: fixed;
+    width: 390px;
+  }
+}
+
 .project-text-container {
   margin-bottom: 25px;
+
+  h3 {
+    margin-top: 0;
+  }
 }
 
 .vimeo-player {
