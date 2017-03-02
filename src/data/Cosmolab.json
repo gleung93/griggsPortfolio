@@ -6,7 +6,7 @@
 
 	"videos": [
 		{
-		"video-url": "https://player.vimeo.com/video/175293481",
+		"video-url": "https://player.vimeo.com/video/175293481?title=0&byline=0&portrait=0",
 		 "video-caption": ""
 		},
 	 {
@@ -21,7 +21,7 @@
  "img-path": "images/cosmolab-style-04.jpg",
 	"video-caption": "",
 	"images": [
-			 {"img-src": "images/cosmolab-01.gif", "caption": "Visual exporations of space-time fabric"},
+			 {"img-src": "images/cosmolab-01.gif", "caption": "Visual Explorations"},
 			 {"img-src": "images/cosmolab-02.gif", "caption": ""}
 
  ]

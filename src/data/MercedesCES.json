@@ -5,7 +5,7 @@
 
 	"videos": [
 		{
-		"video-url": "https://player.vimeo.com/video/205145349",
+		"video-url": "https://player.vimeo.com/video/205145349?title=0&byline=0&portrait=0",
 		 "video-caption": "",
 		 "images": [
 					{"img-src": "images/fui-component-01.gif", "caption": ""},
