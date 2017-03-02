@@ -8,11 +8,11 @@ deploy:
   provider: s3
   access_key_id: $ACCESS_KEY
   secret_access_key: $SECRET_KEY
-  bucket: opterrastudiodev
+  bucket: griggsPortfolio
   acl: public_read
   region: us-west-2
   detect_encoding: true
   skip_cleanup: true
   local_dir: dist
   on:
-    repo: gleung93/OpterraStudio
+    repo: gleung93/griggsPortfolio

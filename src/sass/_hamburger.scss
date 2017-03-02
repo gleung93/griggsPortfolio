@@ -35,14 +35,14 @@ $color: $blackish;
     left: 0;
     bottom: -2px;
     transition: all .5s cubic-bezier(.56,.01,.05,1);
-    transform: scaleX(0);
+    transform: scale3d(0,1,1);
   }
 
   &:hover, &:focus, &:active {
     text-decoration: none;
 
     &:after {
-      transform: scaleX(1);
+      transform: scale3d(1,1,1);
     }
   }
 
@@ -58,7 +58,7 @@ $color: $blackish;
     line-height: 43px;
     padding: 20px 0;
     text-transform: uppercase;
-    transform: translateY(-20px);
+    transform: translate3d(0, -20px, 0);
 
     &:nth-child(1) {
       transition: .7s transform .25s $easing, 1s opacity .25s;
@@ -74,9 +74,9 @@ $color: $blackish;
         width: 220px;
         background-color: $blackish;
         left: 0;
-        bottom: -2px;
+        bottom: 0;
         transition: .7s all .3s $easing;
-        transform: scaleX(0);
+        transform: scale3d(0,1,1);
       }
     }
     &:nth-child(2) {
@@ -93,9 +93,9 @@ $color: $blackish;
         width: 220px;
         background-color: $blackish;
         left: 0;
-        bottom: -2px;
+        bottom: 0;
         transition: .7s all .4s $easing;
-        transform: scaleX(0);
+        transform: scale3d(0,1,1);
       }
     }
     &:nth-child(3) {
@@ -108,10 +108,10 @@ $color: $blackish;
   &.open {
     li {
       opacity: 1;
-      transform: translateY(0);
+      transform: translate3d(0,0,0);
 
       &:after {
-        transform: scaleX(1);
+        transform: scale3d(1,1,1);
       }
     }
   }

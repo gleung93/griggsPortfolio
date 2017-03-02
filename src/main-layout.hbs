@@ -38,8 +38,7 @@
   <script>
   $("#mobile-menu-overlay").hide();
 
-  $("#mobile-menu").click(function(){
-    console.log('clicked');
+  $("#mobile-menu, #mobile-work-link").click(function(){
     $("body").toggleClass("modal-open");
     $("#mobile-nav").toggleClass("open");
     $("#mobile-menu-overlay").fadeToggle(250).toggleClass('open');
