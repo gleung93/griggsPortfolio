@@ -122,7 +122,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['clean', 'build-dev','connect:server','watch']);
   grunt.registerTask('build-dev', ['sass', 'autoprefixer', 'assemble', 'sync',]);
-  grunt.registerTask('build-prod', ['clean', 'sync', 'sass', 'assemble', 'autoprefixer']);
+  grunt.registerTask('build-prod', ['clean', 'sync', 'sass', 'assemble', 'autoprefixer', 'compress']);
   grunt.registerTask('server', ['connect:server']);
 
 };
