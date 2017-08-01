@@ -1,11 +1,11 @@
 {
 	"title": "Mercedes-Benz Energy",
 	"client": "Agency: Epipheo",
-	"description": "Mercedes-Benz energy storage is a battery-based demand charge system that can reduce your peak energy usage and your demand charge cost. <br><br> My responsibilities for this project includes all 2d and 3d animation. This project is in the works!",
+	"description": "Mercedes-Benz energy storage is a battery-based demand charge system that can reduce your peak energy usage and your demand charge cost. <br><br> My responsibilities for this project includes all 2d and 3d animation.",
 
 	"videos": [
 		{
-		"img-path": "images/merc-energy-01.jpg",
+		"video-url": "https://player.vimeo.com/video/227840319?title=0&byline=0&portrait=0",
 		 "video-caption": "",
 		 "images": [
 					{"img-src": "images/merc-energy-gif-01.gif", "caption": ""},
