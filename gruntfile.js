@@ -98,7 +98,7 @@ module.exports = function(grunt) {
       main: {
         options: {
           mode: 'gzip',
-          pretty: true,
+          pretty: true
         },
         expand: true,
         src: ['dist/*.html', 'dist/*.css', 'dist/*.js']
