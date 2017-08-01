@@ -101,7 +101,7 @@ module.exports = function(grunt) {
           pretty: true,
         },
         expand: true,
-        src: ['dist/*.html', 'dist/*.css', 'dist/*.js'],
+        src: ['dist/*.html', 'dist/*.css', 'dist/*.js']
       }
     },
 
